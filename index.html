@@ -3,10 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="culturama-favico.png" type="image/svg+xml">
     <title>Pesquisa Culturama</title>
 </head>
 <body>
     <header>
+        <img src="img/logo-culturama.png" alt="Logo da culturama">
         <h1>Pesquisa Online!</h1>
     </header>
 
@@ -16,7 +19,7 @@
 
                 <fieldset>
                         
-                        <legend><strong>DADOS PESSOAIS</strong></legend>
+                        <legend>DADOS PESSOAIS</legend>
 
                         <label for="nameUser">Nome</label>
                         <input type="text" name="userName" id="nameUser" required>
@@ -45,7 +48,7 @@
                 </fieldset>
 
                 <fieldset>
-                    <legend>Perfil</legend>
+                    <legend>PERFIL</legend>
                     
                     <p>Genero: </p>
                     <input type="radio" name="userGender" value="Masculino" id="manUser">
@@ -105,7 +108,7 @@
                 </fieldset>
 
                 <fieldset>
-                    <legend>Hábitos</legend>
+                    <legend>HÁBITOS</legend>
                     <p>Redes Sociais: </p>
                     <input type="checkbox" name="social" id="instagram" value="instagram">
                     <label for="instagram">Instagram</label>
@@ -134,12 +137,15 @@
                     <br>
 
                     <label for="favoriteColor">Cor favorita</label>
+                    <br>
                     <input type="color" id="favoriteColor" name="userFavoriteColor">
 
                 </fieldset> 
 
                 <fieldset>
-                    <legend>Opinião</legend>
+                    <legend>OPINIÃO</legend>
+
+                    <p>O que você acha sobre os nossos serviços?</p>
 
                     <input type="radio" name="opinion" value="excellent"id="excellentOpinion">
                     <label for="excellentOpinion">Ótima</label>
@@ -165,7 +171,7 @@
                 </fieldset>
 
                 <fieldset>
-                    <legend>Confirmações</legend>
+                    <legend>CONFIRMAÇÕES</legend>
 
                     <input type="checkbox" name="userLgpd" id="userLgpdTerms" value="Confirmed" required>
                     <label for="userLgpdTerms"> Eu aceitos participar a pesquisa</label>
